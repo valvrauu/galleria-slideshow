@@ -3,4 +3,9 @@ export default {
 
     text: '#FFF',
     background: '#000D',
+
+    logo: {
+        text: '#FFF',
+        background: 'transparent'
+    }
 }
