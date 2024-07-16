@@ -6,5 +6,10 @@ declare module 'styled-components' {
 
         text: string,
         background: string,
+
+        logo: {
+            text: string,
+            background: string
+        }
     }
 }
