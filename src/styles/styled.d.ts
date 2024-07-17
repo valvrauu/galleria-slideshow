@@ -10,6 +10,17 @@ declare module 'styled-components' {
         logo: {
             text: string,
             background: string
+        },
+
+        link: {
+            primary: {
+                color: string,
+                background: string,
+                hover: {
+                    color: string,
+                    background: string,
+                }
+            }
         }
     }
 }
