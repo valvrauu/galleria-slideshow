@@ -1,6 +1,7 @@
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { ThemeProvider } from './providers/ThemeProvider';
 import Home from './pages/Home';
+import Details from './pages/Details';
 import Layout from './components/Layout';
 import { GlobalStyles } from './styles/global';
 
@@ -11,6 +12,10 @@ const router = createHashRouter([
             {
                 path: '/',
                 element: <Home />
+            },
+            {
+                path: '/details/:name',
+                element: <Details />
             }
         ]
     }
