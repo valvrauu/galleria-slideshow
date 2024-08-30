@@ -13,6 +13,19 @@ export const DefaultButton = styled.button <DefaultProps>`
     transition-duration: 250ms;
 `;
 
+export const PrimaryButton = styled(DefaultButton)`
+    padding: 1.4rem 1.6rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .215em;
+`;
+
+export const PrimaryButtonWithIcon = styled(PrimaryButton)`
+    display: flex;
+    gap: 1.4rem;
+`;
+
 export const SecondaryButton = styled(DefaultButton)`
     font-size: 1.4rem;
     font-weight: 700;
